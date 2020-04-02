@@ -1,8 +1,8 @@
 {
   "name": "sunnybyte",
   "version": "1.0.0",
-  "description": "Git and Node",
-  "main": "sunnybyte.html",
+  "description": "Sunnybyte Test Page",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
@@ -14,6 +14,12 @@
   "author": "Beau Hale",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.3"
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
   }
 }

@@ -3,14 +3,28 @@
 .navbar {
     background-color: rgb(48, 48, 48);
 }
+
+.navbar-brand {
+    font-size: 2.25rem;
+    color: rgb(123, 108, 99);
+}
+
 .nav-link {
     color: white;
     font-size: 7px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
+    position: relative;
 }
+
+.nav-link:active {
+    text-decoration: underline;
+}
+
 .nav-link-active:hover {
     color: white;
+    color: rgb(123, 108, 99);
+    position: relative;
 }
 
 a {
@@ -20,16 +34,7 @@ a {
 
 a:hover {
     color: rgb(123, 108, 99);
-    border-bottom: 5px solid;
-}
-
-a:active {
-    color: lightsteelblue;
-    border-bottom: 5px solid;
-}
-
-.navbar-brand {
-    font-size: 2.25rem;
+    text-decoration: underline;
 }
 
 /* BODY */
@@ -75,11 +80,6 @@ h1 {
     font-family: 'Raleway', sans-serif;
 }
 
-.fa {
-    float: right;
-    padding: inherit;
-}
-
 /* SERVICES */
 
 .row-services {
@@ -97,3 +97,46 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-size: smaller;
 }
+
+h4 {
+    text-transform: uppercase;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+p {
+    color: rgb(123, 108, 99);
+    font-size: 12px;
+}
+
+.fa {
+    color: rgb(123, 108, 99);
+}
+
+.title {
+    /* border-bottom: solid 5px rgb(123, 108, 99); */
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(123, 108, 99);
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    border-bottom: 10px;
+    height: 5px;
+    bottom: 10px;
+    left: 0;
+    border-bottom: 3px solid rgb(123, 108, 99);
+    right: 0;
+    margin: 0 auto;
+}
+
+.text {
+    font-size: 14px;
+    padding: 10px;
+}
+

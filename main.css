@@ -140,3 +140,29 @@ p {
     padding: 10px;
 }
 
+/* CONTACT */
+
+h3 {
+    color: rgb(123, 108, 99);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+label {
+    color: rgb(123, 108, 99);
+    font-family: 'Raleway', sans-serif;
+    font-size: smaller;
+}
+
+/* FOOTER */
+
+h5 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.title1 {
+    font-family: Oleo Script, cursive;
+    font-size: 2.25rem;
+    color: rgb(123, 108, 99);
+}

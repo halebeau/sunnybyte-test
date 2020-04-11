@@ -201,7 +201,7 @@ label {
 /* FOOTER */
 
 footer {
-    background: rgb(48, 48, 48);
+    background: rgb(40, 40, 40);
 }
 
 .container {
@@ -236,4 +236,10 @@ p1 {
 
 span2 {
     font-size: 7px;
+}
+
+.Footer {
+    background: rgb(33, 33, 33);
+    width: 100%;
+    height: 100%;
 }

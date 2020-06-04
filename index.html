@@ -58,7 +58,7 @@
                         <h1>the <span1 class="greyText">premium</span1> quality <br> psd template for <span1
                                 class="greyText">free</span1>
                         </h1>
-                        <button class="btn btn-md"></i>download<i class="fa fa-download text-white pl-2"></i>
+                        <button class="btn btn-md"></i>download<i class="fa fa-download pl-2"></i>
                         </button>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
     </section>
 
     <!-- SERVICES -->
-    <section>
+    <section class="services">
         <div class="container text-center">
             <div class="row-services d-flex justify-content-center pt-5 pb-3">services we provide</div>
             <div class="row-text text-center pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -192,22 +192,30 @@
                     <h3 class="py-3">contact</h3>
                 </div>
                 <form>
-                    <div class="form-check form-check-inline">
-                        <label for="formGroupExampleInput "></label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name*">
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="formGroupExampleInput "></label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name*">
+                        </div>
+                        <div class="col">
+                            <label for="formGroupExampleInput2"></label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="Email*">
+                        </div>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <label for="formGroupExampleInput2"></label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Email*">
+                    <div class="row">
+                        <div class="col">
+                            <label for="message"></label>
+                            <textarea id="message" class="form-control" placeholder="Message..." rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col submit pt-4">
+                                <input class="btn1 btn-outline-dark d-flex justify-content-center mx-auto bg" style="width: 125px;"
+                                type="submit" value="Submit">
+                        </div>
                     </div>
                 </form>
-                <div class="form-group">
-                    <label for="message"></label>
-                    <textarea id="message" class="form-control" placeholder="Message..." rows="3"></textarea>
-                </div>
-                <input class="btn1 btn-outline-dark d-flex justify-content-center mx-auto bg" style="width: 125px;"
-                    type="submit" value="Submit">
             </div>
     </div>
     </div>
@@ -280,11 +288,11 @@
                             <p1>first.last@email.com</p1>
                         </div>
                     </p1>
-                    </div>
-                    <div class="col-2">
-                        <div class="panel2"></div>
-                    </div>
-                </div>
+            </div>
+            <div class="col-2">
+                <div class="panel2"></div>
+            </div>
+        </div>
         </div>
         <div class="Footer text-center py-1 text-muted">
             <p>&copy; 2014 Irman Khan Akk Rights Reserved</p>

@@ -55,7 +55,7 @@ h1 {
 /* BODY */
 
 .home {
-    background: url('../img/bikehundles.jpg');
+    background: url('img/bikehundles.jpg');
     background-color: rgba(48, 48, 48, 100%);
     position: relative;
 }
@@ -76,6 +76,15 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
     width: 40%;
+}
+
+.btn, .btn i {
+    transition: none;
+}
+
+.btn:hover, .btn:hover i {
+    color: black;
+    background-color: white;
 }
 
 /* SERVICES */
@@ -110,7 +119,7 @@ p {
     line-height: 20px;
 }
 
-.fa {
+.services .fa {
     color: rgb(123, 108, 99);
 }
 
@@ -184,16 +193,13 @@ label {
 .form-control {
     background: none;
     border: none;
+    border-radius: 0px;
+    border-top: 2px solid black;
     padding: 10px 0px 20px 10px;
 }
 
-.form-check {
-    border-top: solid;
-}
-
-.form-group {
-    border-top: solid;
-    border-bottom: solid 1.5px rgb(162, 162, 162);
+.submit {
+    border-top: 1px solid black;
 }
 
 .btn1 {

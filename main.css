@@ -46,7 +46,7 @@ h6 {
 
 h1 {
     font-weight: 300;
-    
+
 }
 
 .greyText {
@@ -63,10 +63,13 @@ h1 {
 
 .color-overlay {
     width: 100%;
-    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background: #000;
     opacity: .85;
-    position: relative;
+    position: absolute;
 }
 
 .btn {
@@ -104,7 +107,8 @@ h1 {
 .row-text {
     font-family: 'Raleway', sans-serif;
     font-size: smaller;
-    padding: 0px 300px;
+    margin: 0 auto;
+    max-width: 600px;
     line-height: 20px;
 }
 

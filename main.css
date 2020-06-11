@@ -130,6 +130,11 @@ p {
 
 /* OUR BLOG */
 
+.row {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .container-fluid {
     padding-bottom: 100px;
 }

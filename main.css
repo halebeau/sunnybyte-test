@@ -51,6 +51,8 @@ h1 {
 
 .greyText {
     color: rgb(123, 108, 99);
+    font-weight: 300;
+    font-size: 2.5rem;
 }
 
 /* BODY */
@@ -136,7 +138,7 @@ p {
 }
 
 .container-fluid {
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
 .heading {
@@ -179,10 +181,6 @@ span {
     font-weight: bolder;
     color: black;
 }
-
-/* span1 {
-    color: grey;
-} */
 
 .col {
     position: relative;
@@ -231,7 +229,7 @@ footer {
     color: white;
 }
 
-p1 {
+.footer {
     font-size: 8px;
     font-family: 'Raleway', sans-serif;
     color: rgb(162, 162, 162);
@@ -269,4 +267,10 @@ span2 {
     background: rgb(33, 33, 33);
     width: 100%;
     height: 100%;
+}
+
+.contactFooter {
+    font-size: .8rem;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(123, 108, 99);
 }
